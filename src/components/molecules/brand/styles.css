@@ -1,0 +1,8 @@
+.row {
+    display: flex;
+}
+
+.logo {
+    height:8em;
+    width: auto;
+}
