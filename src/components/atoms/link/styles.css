@@ -3,6 +3,7 @@ a {
     font-size: 1.5em;
     color: #131313;
     text-decoration: none;
+    padding: 1%;
 }
 
 a:hover {
