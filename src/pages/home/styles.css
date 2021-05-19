@@ -1,0 +1,13 @@
+.bg-yellow-orange {
+    background-image: linear-gradient(#FFEB90, #FDD000);
+    height: 100vh;
+}
+
+.pad-page {
+    padding: 1% 8% 0 8%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
