@@ -4,3 +4,19 @@
     justify-content: space-between;
     height: 80%;
 }
+
+@media screen and (max-width: 910px) {
+    .content-center {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image {
+        width: 80vw;
+        height: initial;
+    }
+
+    .header {
+        align-self: left;
+    }
+}

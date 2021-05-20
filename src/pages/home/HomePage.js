@@ -30,7 +30,7 @@ function HomePage(props){
     return(
         <div className="bg-yellow-orange pad-page">
             <NavBar className="row" content={navbarprops}></NavBar>
-            <MainContent className="content-center" content={contentprops}>Ilalabas ko lang Itlog Co.</MainContent>
+            <MainContent className="content-center" content={contentprops}>Hanggang titig na lang ba sa Itlog Co.?</MainContent>
         </div>
     )
 }
