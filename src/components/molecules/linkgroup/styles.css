@@ -1,4 +1,4 @@
-.flex-end {
+.flex-between {
     display: flex;
     justify-content: space-between;
     width: 50%;

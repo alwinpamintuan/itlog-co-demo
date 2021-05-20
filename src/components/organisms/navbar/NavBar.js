@@ -1,6 +1,6 @@
 import React from 'react'
-import Brand from '../molecules/brand/Brand'
-import LinkGroup from '../molecules/linkgroup/LinkGroup'
+import Brand from '../../molecules/brand/Brand'
+import LinkGroup from '../../molecules/linkgroup/LinkGroup'
 import './styles.css'
 
 function NavBar(props){
@@ -14,7 +14,7 @@ function NavBar(props){
                     {props.content.brand}
             </Brand>
             <LinkGroup
-                className="flex-end"
+                className="flex-between"
             >
                 {props.content.links}
             </LinkGroup>

@@ -1,0 +1,15 @@
+.logo {
+    height:3em;
+    width: auto;
+    margin-right: 1em;
+}
+
+.link {
+    height: 1em;
+    color: #131313;
+    padding: 1%;
+}
+
+.image {
+    height: 50vh;
+}
