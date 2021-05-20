@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
 import NavBar from '../../components/organisms/NavBar'
+import Header from '../../components/atoms/header/Header'
 import logo from '../../resources/logo.svg'
 
 function HomePage(props){
@@ -22,6 +23,7 @@ function HomePage(props){
     return(
         <div className="bg-yellow-orange pad-page">
             <NavBar className="row" content={navbarprops}></NavBar>
+            <Header className="tagline">Ilalabas ko lang Itlog Co.</Header>
         </div>
     )
 }

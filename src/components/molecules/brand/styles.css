@@ -1,8 +1,11 @@
-.row {
+.brand {
     display: flex;
+    align-items: center;
+    width: 50%;
 }
 
 .logo {
-    height:8em;
+    height:3em;
     width: auto;
+    margin-right: 1em;
 }

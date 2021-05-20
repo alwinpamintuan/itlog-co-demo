@@ -11,3 +11,9 @@
     display: flex;
     align-items: center;
 }
+
+.tagline {
+    align-self: flex-start;
+    font-size: 4em;
+    width: 50%;
+}
