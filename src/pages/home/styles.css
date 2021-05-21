@@ -13,6 +13,14 @@
 }
 
 .tagline {
-    font-size: 4em;
+    font-size: 5em;
     width: 50%;
+    background-color: pink;
+    justify-self: center;
+}
+
+@media (max-width: 910px) {
+    .tagline {
+        font-size: 3em;
+    }
 }

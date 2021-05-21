@@ -1,22 +1,19 @@
 .content-center {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 80%;
 }
 
-@media screen and (max-width: 910px) {
+/* @media screen and (max-width: 910px) {
     .content-center {
         flex-direction: column;
         text-align: center;
+        border: 1px solid;
+        height: auto;
     }
 
     .image {
         width: 80vw;
         height: initial;
     }
-
-    .header {
-        align-self: left;
-    }
-}
+} */

@@ -24,7 +24,7 @@ function HomePage(props){
     const contentprops = {
         headerClass: "tagline",
         src: mainimage,
-        iconClass: "image flex-end"
+        iconClass: "image"
     }
 
     return(

@@ -5,7 +5,9 @@ import './styles.css'
 function MainContent(props){
     return(
         <div className={props.className}>
-            <Header className={props.content.headerClass}>{props.children}</Header>
+            <div className="flex-col">
+                <Header className={props.content.headerClass}>{props.children}</Header>
+            </div>
             <Icon src={props.content.src} className={props.content.iconClass}>egg</Icon>
         </div>
     )
