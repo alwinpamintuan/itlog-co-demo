@@ -3,6 +3,8 @@ import './styles.css'
 import Icon from '../../components/atoms/icon/Icon'
 import NavBar from '../../components/organisms/navbar/NavBar'
 import MainContent from '../../components/organisms/maincontent/MainContent'
+import ProductLine from '../../components/organisms/productline/ProductLine'
+import Footer from '../../components/organisms/footer/Footer'
 import logo from '../../resources/logo.svg'
 import mainimage from '../../resources/image.svg'
 import cart from '../../resources/shopping-cart.svg'
@@ -22,15 +24,19 @@ function HomePage(props){
     }
 
     const contentprops = {
-        headerClass: "tagline",
         src: mainimage,
-        iconClass: "image"
+        iconClass: "image",
+        focus: "Itlog Co.?",
+        headerFocusClass: "tagline-focus",
+        headerClass: "tagline"
     }
 
     return(
-        <div className="bg-yellow-orange pad-page">
-            <NavBar className="row" content={navbarprops}></NavBar>
-            <MainContent className="content-center" content={contentprops}>Hanggang titig na lang ba sa Itlog Co.?</MainContent>
+        <div className="bg-yellow-orange column">
+            <NavBar className="row sticky-top bg-yellow-orange pad-lr" content={navbarprops}></NavBar>
+            <MainContent className="content-center pad-lr height-full" content={contentprops}>Ready ka na ba sa</MainContent>
+            <ProductLine></ProductLine>
+            <Footer className="footer-black">© 2021 Itlog Co. All Rights Reserved.</Footer>
         </div>
     )
 }

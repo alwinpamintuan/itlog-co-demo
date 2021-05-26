@@ -1,5 +1,5 @@
 .flex-between {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    flex-grow: 1;
 }

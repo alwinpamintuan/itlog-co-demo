@@ -7,8 +7,9 @@ function MainContent(props){
         <div className={props.className}>
             <div className="flex-col">
                 <Header className={props.content.headerClass}>{props.children}</Header>
+                <Header className={props.content.headerFocusClass}>{props.content.focus}</Header>
             </div>
-            <Icon src={props.content.src} className={props.content.iconClass}>egg</Icon>
+            <Icon src={props.content.src} className={props.content.iconClass}></Icon>
         </div>
     )
 }

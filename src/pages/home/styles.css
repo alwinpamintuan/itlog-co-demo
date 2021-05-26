@@ -1,22 +1,38 @@
 .bg-yellow-orange {
     background-image: linear-gradient(#FFEB90, #ffdf4e);
-    height: 100vh;
 }
 
-.pad-page {
-    padding: 1% 8% 0 8%;
+.height-full {
+    min-height: 100vh;
+    border: 1px solid green;
+}
+
+.pad-l {
+    padding-left: 8%;
+}
+
+.pad-r {
+    padding-right: 8%;
+}
+
+.pad-lr {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.pad-tb {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
     display: flex;
     align-items: center;
-}
-
-.tagline {
-    font-size: 5em;
-    width: 50%;
-    background-color: pink;
-    justify-self: center;
 }
 
 @media (max-width: 910px) {
