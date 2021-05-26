@@ -1,10 +1,23 @@
+.bg-yellow {
+    background-color: rgba(255, 235, 144, 1);
+}
+
 .bg-yellow-orange {
-    background-image: linear-gradient(#FFEB90, #ffdf4e);
+    background-image: linear-gradient(rgba(255, 235, 144, 1), rgba(255, 235, 144, 0));
+    background-color: rgba(253, 208, 0, 1);
+}
+
+.bg-gray-black {
+    background-color: rgba(27, 27, 27, 1);
+    background-image: linear-gradient(rgba(5, 5, 5, 1), rgba(5, 5, 5, 0));
 }
 
 .height-full {
     min-height: 100vh;
-    border: 1px solid green;
+}
+
+.height-3qrt {
+    min-height: 82.5vh;
 }
 
 .pad-l {

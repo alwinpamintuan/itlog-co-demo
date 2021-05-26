@@ -31,11 +31,15 @@ function HomePage(props){
         headerClass: "tagline"
     }
 
+    const productprops = {
+        headerClass: "tagline-focus-small text-center",
+    }
+
     return(
         <div className="bg-yellow-orange column">
-            <NavBar className="row sticky-top bg-yellow-orange pad-lr" content={navbarprops}></NavBar>
+            <NavBar className="row sticky-top bg-yellow pad-lr" content={navbarprops}></NavBar>
             <MainContent className="content-center pad-lr height-full" content={contentprops}>Ready ka na ba sa</MainContent>
-            <ProductLine></ProductLine>
+            <ProductLine className="bg-gray-black height-3qrt pad-tb" content={productprops}>Ang pinaka-eggciting</ProductLine>
             <Footer className="footer-black">© 2021 Itlog Co. All Rights Reserved.</Footer>
         </div>
     )

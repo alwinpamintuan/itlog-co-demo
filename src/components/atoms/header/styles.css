@@ -16,3 +16,10 @@
     width: fit-content;
     background-color: white;
 }
+
+.tagline-focus-small {
+    font-size: 2em;
+    width: fit-content;
+    background-color: white;
+    margin: 0 auto;
+}
