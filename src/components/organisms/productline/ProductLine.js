@@ -5,6 +5,7 @@ function ProductLine(props){
     return(
         <div className={props.className}>
             <Header className={props.content.headerClass}>{props.children}</Header>
+            
         </div>
     )
 }

@@ -27,6 +27,8 @@ function HomePage(props){
         src: mainimage,
         iconClass: "image",
         focus: "Itlog Co.?",
+        subtext: "Yiieeee. Gusto niya!",
+        textClass: "text",
         headerFocusClass: "tagline-focus",
         headerClass: "tagline"
     }
