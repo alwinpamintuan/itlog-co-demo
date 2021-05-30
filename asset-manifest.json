@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/itlog-co-demo/static/css/main.c0bf27ca.chunk.css",
-    "main.js": "/itlog-co-demo/static/js/main.ce046893.chunk.js",
-    "main.js.map": "/itlog-co-demo/static/js/main.ce046893.chunk.js.map",
+    "main.js": "/itlog-co-demo/static/js/main.d48b1648.chunk.js",
+    "main.js.map": "/itlog-co-demo/static/js/main.d48b1648.chunk.js.map",
     "runtime-main.js": "/itlog-co-demo/static/js/runtime-main.ed8e23e6.js",
     "runtime-main.js.map": "/itlog-co-demo/static/js/runtime-main.ed8e23e6.js.map",
     "static/js/2.85974ae7.chunk.js": "/itlog-co-demo/static/js/2.85974ae7.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ed8e23e6.js",
     "static/js/2.85974ae7.chunk.js",
     "static/css/main.c0bf27ca.chunk.css",
-    "static/js/main.ce046893.chunk.js"
+    "static/js/main.d48b1648.chunk.js"
   ]
 }
