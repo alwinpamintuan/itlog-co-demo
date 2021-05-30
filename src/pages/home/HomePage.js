@@ -1,18 +1,14 @@
 import React from 'react'
-import './styles.css'
 import Icon from '../../components/atoms/icon/Icon'
-import NavBar from '../../components/organisms/navbar/NavBar'
-import MainContent from '../../components/organisms/maincontent/MainContent'
-import ProductLine from '../../components/organisms/productline/ProductLine'
-import Footer from '../../components/organisms/footer/Footer'
 import Logo from '../../resources/logo.svg'
 import MainImage from '../../resources/image.svg'
 import WhiteEgg from '../../resources/white-egg.png'
 import BrownEgg from '../../resources/brown-egg.png'
 import SaltedEgg from '../../resources/salted-egg.png'
 import cart from '../../resources/shopping-cart.svg'
+import HomeTemplate from '../../components/templates/HomeTemplate'
 
-function HomePage(props){
+function HomePage(){
     const navbarprops = {
         brand: "Itlog Co.",
         headerClass: "brand-name",
@@ -64,12 +60,13 @@ function HomePage(props){
     }
 
     return(
-        <div className="bg-yellow-orange column">
-            <NavBar className="row sticky-top bg-yellow pad-lr" content={navbarprops}></NavBar>
-            <MainContent className="content-center pad-lr height-full" content={contentprops}>Ready ka na ba sa</MainContent>
-            <ProductLine className="bg-gray-black height-3qrt pad-tb" content={productprops}>Ang pinaka-eggciting</ProductLine>
-            <Footer className="footer-black">© 2021 Itlog Co. All Rights Reserved.</Footer>
-        </div>
+        <HomeTemplate
+            navbar={navbarprops}
+            content={contentprops}
+            product={productprops}
+            productHeader={"Ang pinaka egg-citing"}
+            footerContent={"© 2021 Itlog Co. All Rights Reserved."}
+        />
     )
 }
 
