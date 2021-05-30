@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0bf27ca.chunk.css",
+    "main.js": "/static/js/main.ce046893.chunk.js",
+    "main.js.map": "/static/js/main.ce046893.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf41d72f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf41d72f.js.map",
+    "static/js/2.85974ae7.chunk.js": "/static/js/2.85974ae7.chunk.js",
+    "static/js/2.85974ae7.chunk.js.map": "/static/js/2.85974ae7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c0bf27ca.chunk.css.map": "/static/css/main.c0bf27ca.chunk.css.map",
+    "static/js/2.85974ae7.chunk.js.LICENSE.txt": "/static/js/2.85974ae7.chunk.js.LICENSE.txt",
+    "static/media/brown-egg.2a52ea3f.png": "/static/media/brown-egg.2a52ea3f.png",
+    "static/media/image.63148e03.svg": "/static/media/image.63148e03.svg",
+    "static/media/logo.1d4bdb52.svg": "/static/media/logo.1d4bdb52.svg",
+    "static/media/salted-egg.9224a28a.png": "/static/media/salted-egg.9224a28a.png",
+    "static/media/shopping-cart.ff4b434b.svg": "/static/media/shopping-cart.ff4b434b.svg",
+    "static/media/white-egg.be90ff82.png": "/static/media/white-egg.be90ff82.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf41d72f.js",
+    "static/js/2.85974ae7.chunk.js",
+    "static/css/main.c0bf27ca.chunk.css",
+    "static/js/main.ce046893.chunk.js"
+  ]
+}
