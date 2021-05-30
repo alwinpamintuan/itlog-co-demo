@@ -1,0 +1,23 @@
+.card {
+    background-color: black;
+    color: white;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.card:hover {
+    background-image: linear-gradient(to right, rgba(5, 5, 5, 1), rgba(255, 235, 144, 0.25));
+    transform: translate(5, 5, 5);
+    border-radius: 3em;
+    transition: 0.1s;
+}
+
+.width-half {
+    width: 50%;
+}
+
+.tagline-focus-small {
+    color: black !important;
+    padding-left: 1em;
+    padding-right: 1em;
+}

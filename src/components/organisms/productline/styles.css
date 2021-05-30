@@ -6,3 +6,20 @@
     justify-self: center;
     align-self: center;
 }
+
+.grid-3 {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5em;
+}
+
+@media (max-width: 910px) {
+    .grid-3 {
+        height: max-content;
+        grid-template-columns: auto;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-gap: 1em;
+        padding: 5%;
+    }
+}

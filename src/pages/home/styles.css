@@ -38,6 +38,11 @@
     padding-bottom: 1%;
 }
 
+.pad-tb-m {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .column {
     display: flex;
     flex-direction: column;
@@ -51,5 +56,9 @@
 @media (max-width: 910px) {
     .tagline {
         font-size: 3em;
+    }
+
+    .height-3qrt {
+        height: max-content;
     }
 }

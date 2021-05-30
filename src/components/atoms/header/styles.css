@@ -23,3 +23,8 @@
     background-color: white;
     margin: 0 auto;
 }
+
+.product-name {
+    font-size: 2em;
+    width: fit-content;
+}

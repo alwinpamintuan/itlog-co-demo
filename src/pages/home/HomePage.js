@@ -5,15 +5,18 @@ import NavBar from '../../components/organisms/navbar/NavBar'
 import MainContent from '../../components/organisms/maincontent/MainContent'
 import ProductLine from '../../components/organisms/productline/ProductLine'
 import Footer from '../../components/organisms/footer/Footer'
-import logo from '../../resources/logo.svg'
-import mainimage from '../../resources/image.svg'
+import Logo from '../../resources/logo.svg'
+import MainImage from '../../resources/image.svg'
+import WhiteEgg from '../../resources/white-egg.png'
+import BrownEgg from '../../resources/brown-egg.png'
+import SaltedEgg from '../../resources/salted-egg.png'
 import cart from '../../resources/shopping-cart.svg'
 
 function HomePage(props){
     const navbarprops = {
         brand: "Itlog Co.",
         headerClass: "brand-name",
-        logo: logo,
+        logo: Logo,
         logoClass: "logo",
         links: ["Shop",
                 "About",
@@ -24,7 +27,7 @@ function HomePage(props){
     }
 
     const contentprops = {
-        src: mainimage,
+        src: MainImage,
         iconClass: "image",
         focus: "Itlog Co.?",
         subtext: "Yiieeee. Gusto niya!",
@@ -35,6 +38,29 @@ function HomePage(props){
 
     const productprops = {
         headerClass: "tagline-focus-small text-center",
+        productNameClass: "product-name",
+        productsClass: "grid-3 pad-lr pad-tb-m",
+        productClass: "product",
+        cardClass: "card pad-lr pad-tb",
+        product1: {
+            name: "Egg Classic",
+            price: "150",
+            description: "Itlog. 'Di ko alam paano pa ie-explain.",
+            image: WhiteEgg
+        },
+        product2: {
+            name: "Eggy Wow",
+            price: "175",
+            description: "Itlog lang din talaga. Pero brown. Edi wow.",
+            image: BrownEgg
+        },
+        product3: {
+            name: "Egg Xotic",
+            price: "185",
+            description: "Binabad sa asin. Kinulayan ng pala. Stonks.",
+            image: SaltedEgg
+        }
+
     }
 
     return(

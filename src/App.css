@@ -1,3 +1,5 @@
 .App {
   background-image: linear-gradient(rgba(255, 235, 144, 0), rgba(253, 208, 0, 0));
+  width: 100%;
+  height: auto;
 }

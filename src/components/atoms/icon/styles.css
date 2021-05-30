@@ -13,3 +13,10 @@
 .image {
     height: 35em;
 }
+
+.product {
+    height: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
