@@ -63,8 +63,9 @@ function HomePage(){
         <HomeTemplate
             navbar={navbarprops}
             content={contentprops}
+            tagline={"Ready ka na ba sa"}
             product={productprops}
-            productHeader={"Ang pinaka egg-citing"}
+            productHeader={"Ang pinaka-eggciting"}
             footerContent={"© 2021 Itlog Co. All Rights Reserved."}
         />
     )
